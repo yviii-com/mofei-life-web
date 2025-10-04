@@ -100,8 +100,7 @@ export default function RootLayout(params: Readonly<{
   return (
     <html lang={lang}>
       <head>
-        <link rel="dns-prefetch" href="https://static.mofei.life" />
-        <link rel="preconnect" href="https://static.mofei.life" crossOrigin="anonymous" />
+        
 
         <link rel="alternate" type="application/rss+xml" title="Mofei's Blog RSS Feed" href="https://www.mofei.life/en/rss" />
         <link rel="alternate" type="application/rss+xml" title="Mofei 的博客订阅" href="https://www.mofei.life/zh/rss" />
